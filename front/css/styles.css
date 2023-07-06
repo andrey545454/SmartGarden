@@ -46,13 +46,39 @@ div.service{
     height: auto;
     width: 40vw;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.service-top{
+    height: 50%;
+    width: 100%;
+}
+
+div.service-icon{
+    height: 80%;
+    width: 40%;
+    background-color: #242424;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+;
+}
+
+div.service-bottom{
+    height: 50%;
+    width: 100%;
 }
 
 div.text-box{
     height: 20vw;
 }
 
-h1.text{
+div.service-text{
+    height: 50%;
+}
+
+h1.header{
     color: white;
     font-size: 5em;
 }
