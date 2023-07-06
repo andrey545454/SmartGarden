@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    /*margin: 0px;
+    padding: 0px;*/
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html, body, header.header-block{
+    /*height: 100%;*/
+    /*width: 100%;*/
+    max-height: 1920px;
+    max-width: 1080px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+
+div.main-container{
+
+}
+
+div.blocks{
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+
+div.block-services{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+div.service{
+
+}
+
+h1.text{
+    color: white;
+}
