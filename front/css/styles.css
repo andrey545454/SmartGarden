@@ -11,10 +11,10 @@ html{
 }
 
 html, body, header.header-block{
-    /*height: 100%;*/
-    /*width: 100%;*/
-    max-height: 1920px;
-    max-width: 1080px;
+    height: 100%;
+    width: 100%;
+    /*max-height: 1920px;*/
+    /*max-width: 1080px;*/
     background-color: #242424;
     overflow: hidden;
 }
@@ -74,11 +74,18 @@ div.text-box{
     height: 20vw;
 }
 
-div.service-text{
-    height: 50%;
+h1.service-name{
+    padding-left: 20px;
+    color: white;
 }
 
 h1.header{
     color: white;
     font-size: 5em;
+    padding-left: 80px;
+}
+
+p.service-description{
+    padding-left: 20px;
+    color: white;
 }
