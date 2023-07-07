@@ -1,5 +1,9 @@
+import os
+
 from django.shortcuts import render
-from django.urls import reverse
+from requests import get
+from json import loads
+
 
 def index(request):
     return render(request, 'index.html')
@@ -26,4 +30,13 @@ def timetable(request):
 
 
 def sensors(request):
+    res = get(
+        'https://api-uae-test.ujin.tech/api/devices/get-device-info/',
+        data={
+            'token': os.getenv('API_TOKEN'),
+            'serialnumber': os.getenv('SERIAL_NUMBER')
+        }
+    )
+    obj = loads(res.content)
+    print(obj)
     return render(request, 'sensors.html')
