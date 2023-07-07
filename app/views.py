@@ -15,3 +15,7 @@ def nature_outside(request):
 
 def add_nature(request):
     return render(request, 'add_nature.html')
+
+
+def sensors(request):
+    return render(request, 'sensors.html')
