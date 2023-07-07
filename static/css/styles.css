@@ -240,4 +240,43 @@ h1.timetable{
 #timetable{
     align-items: center;
     padding-left: 20px;
+    justify-content: left;
+}
+
+div.ready{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+button.complete{
+    height: 100%;
+    width: 50%;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+div.type-of-sensors{
+    background-color: #313131;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1.sensors-name{
+    color: white;
+    font-size: 3em;
+}
+
+div.sensors-info{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+div.sensors-value{
+    width: 70px;
 }
