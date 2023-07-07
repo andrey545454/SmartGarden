@@ -10,6 +10,10 @@ html{
     box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 html, body, header.header-block{
     height: 100%;
     width: 100%;
