@@ -1,0 +1,103 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <!--<link href="/static/css/styles.css" rel="stylesheet">-->
+    <title>Nature</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="choice-location">
+        <div class="house">
+            <a href="{% url 'nature_home' %}">
+                <h1 class="location-name on-focus">Дом</h1>
+            </a>
+        </div>
+        <div class="street">
+            <a href="{% url 'nature_outside' %}">
+                <h1 class="location-name">Улица</h1>
+            </a>
+        </div>
+    </div>
+    <div class="type-of-vegetable">
+        <div class="vegetable-icon">
+            <div class="icon">
+                <img class="icon" src="{% static 'images/tomatoes.jpg' %}" alt="image">
+            </div>
+        </div>
+        <div class="vegetable-info">
+            <h1 class="vegetable-name">Помидоры</h1>
+            <p class="vegetable-description">Редактировать</p>
+        </div>
+        <div class="vegetable-wet">
+            <a href="{% url 'sensors' %}">
+                <h1 class="info-icon">i</h1>
+            </a>
+        </div>
+    </div>
+      <div class="type-of-vegetable">
+          <div class="vegetable-icon">
+              <div class="icon">
+                <img class="icon" src="{% static 'images/cucumber.jpg' %}" alt="image">
+              </div>
+          </div>
+          <div class="vegetable-info">
+              <h1 class="vegetable-name">Огурцы</h1>
+              <p class="vegetable-description">Редактировать</p>
+          </div>
+          <div class="vegetable-wet">
+              <a href="{% url 'sensors' %}">
+                  <h1 class="info-icon">i</h1>
+              </a>
+          </div>
+      </div>
+      <div class="type-of-vegetable">
+          <div class="vegetable-icon">
+              <div class="icon">
+                  <img class="icon" src="{% static 'images/pepper.jpg' %}" alt="image">
+              </div>
+          </div>
+          <div class="vegetable-info">
+              <h1 class="vegetable-name">Перцы</h1>
+              <p class="vegetable-description">Редактировать</p>
+          </div>
+          <div class="vegetable-wet">
+              <a href="{% url 'sensors' %}">
+                  <h1 class="info-icon">i</h1>
+              </a>
+          </div>
+      </div>
+      <div class="type-of-vegetable">
+          <div class="vegetable-icon">
+              <div class="icon">
+                  <img class="icon" src="{% static 'images/fikus.jpg' %}" alt="image">
+              </div>
+          </div>
+          <div class="vegetable-info">
+              <h1 class="vegetable-name">Фикус</h1>
+              <p class="vegetable-description">Редактировать</p>
+          </div>
+          <div class="vegetable-wet">
+              <a href="{% url 'sensors' %}">
+                  <h1 class="info-icon">i</h1>
+              </a>
+          </div>
+      </div>
+        <div class="add-vegetable">
+            <div class="vegetable-icon">
+                <div class="icon">
+                    <h1 class="add-vegetable">+</h1>
+                </div>
+            </div>
+
+        <a href="{% url 'add_nature' %}">
+            <div class="add-plant">
+                <h1 class="vegetable-name">Добавить растение</h1>
+            </div>
+        </a>
+    </div>
+  </div>
+</body>
+</html>
