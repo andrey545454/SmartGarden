@@ -7,3 +7,7 @@ def index(request):
 
 def nature(request):
     return render(request, 'nature.html')
+
+
+def add_nature(request):
+    return render(request, 'add_nature.html')

@@ -59,15 +59,17 @@
               <h1 class="info-icon">i</h1>
           </div>
       </div>
-    <div class="add-vegetable">
-        <div class="vegetable-icon">
-            <div class="icon">
-                <h1 class="add-vegetable">+</h1>
+        <div class="add-vegetable">
+            <div class="vegetable-icon">
+                <div class="icon">
+                    <h1 class="add-vegetable">+</h1>
+                </div>
             </div>
-        </div>
-        <div class="add-plant">
-            <h1 class="vegetable-name">Добавить растение</h1>
-        </div>
+        <a href="{% url 'add_nature' %}">
+            <div class="add-plant">
+                <h1 class="vegetable-name">Добавить растение</h1>
+            </div>
+        </a>
     </div>
   </div>
 </body>
