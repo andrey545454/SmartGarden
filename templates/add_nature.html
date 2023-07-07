@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="{% static 'css/styles.css' %}" rel="stylesheet">
-    <!--<link href="/static/css/styles.css" rel="stylesheet">-->
+    <link href="/static/css/styles.css" rel="stylesheet">
     <title>Settings</title>
 </head>
 <body>
@@ -13,7 +13,11 @@
         <input class="name" id="name">
     </div>
     <div class="type-of-vegetable">
-
+        <select class="selection" id="selection" style="width: 90%" style="font-size: 3em">
+            <option style="width: 70px" style="font-size: 3em">Орошитель 1</option>
+            <option style="width: 70px" style="font-size: 3em">Орошитель 2</option>
+            <option style="width: 70px" style="font-size: 3em">Орошитель 3</option>
+        </select>
     </div>
     <div class="type-of-vegetable" id="timetable">
         <h1 class="timetable">Расписание орошения</h1>
