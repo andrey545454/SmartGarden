@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="{% static 'css/styles.css' %}" rel="stylesheet">
-    <link href="/static/css/styles.css" rel="stylesheet">
+    <!-- <link href="/static/css/styles.css" rel="stylesheet"> -->
     <title>Smart Garden</title>
 </head>
 <body>
@@ -15,19 +15,21 @@
         <div class="blocks">
             <div class="block-services">
                 <div class="service">
-                    <div class="service-top">
-                        <div class="icon-container">
-                            <img class="icon" src="{% static 'images/service_logo.png' %}" alt="image">
+                    <a href="{% url 'nature' %}">
+                        <div class="service-top">
+                            <div class="icon-container">
+                                <img class="icon" src="{% static 'images/service_logo.png' %}" alt="image">
+                            </div>
                         </div>
-                    </div>
-                    <div class="service-bottom">
-                        <h1 class="service-name">
-                            Растения
-                        </h1>
-                        <p class="service-description">
-                            Управление растениями
-                        </p>
-                    </div>
+                        <div class="service-bottom">
+                            <h1 class="service-name">
+                                Растения
+                            </h1>
+                            <p class="service-description">
+                                Управление растениями
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="service">
                     <div class="service-top">
