@@ -67,6 +67,7 @@ div.icon-container{
 img.icon{
     width: 100%;
     height: 100%;
+    border-radius: 30%;
     object-fit: contain;
 }
 
@@ -199,13 +200,13 @@ h1.add-vegetable{
 
 div.icon{
     margin: 27px;
-    border-radius: 50px;
+    border-radius: 30%;
     background-color: #242424;
     width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 

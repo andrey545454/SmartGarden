@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="/static/css/styles.css" rel="stylesheet">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <!--<link href="/static/css/styles.css" rel="stylesheet">-->
     <title>Nature</title>
 </head>
 <body>
@@ -17,7 +19,9 @@
     </div>
     <div class="type-of-vegetable">
         <div class="vegetable-icon">
-            <div class="icon"></div>
+            <div class="icon">
+                <img class="icon" src="{% static 'images/tomatoes.jpg' %}" alt="image">
+            </div>
         </div>
         <div class="vegetable-info">
             <h1 class="vegetable-name">Помидоры</h1>
@@ -29,7 +33,9 @@
     </div>
       <div class="type-of-vegetable">
           <div class="vegetable-icon">
-              <div class="icon"></div>
+              <div class="icon">
+                <img class="icon" src="{% static 'images/cucumber.jpg' %}" alt="image">
+              </div>
           </div>
           <div class="vegetable-info">
               <h1 class="vegetable-name">Огурцы</h1>
@@ -41,7 +47,9 @@
       </div>
       <div class="type-of-vegetable">
           <div class="vegetable-icon">
-              <div class="icon"></div>
+              <div class="icon">
+                  <img class="icon" src="{% static 'images/pepper.jpg' %}" alt="image">
+              </div>
           </div>
           <div class="vegetable-info">
               <h1 class="vegetable-name">Перцы</h1>
