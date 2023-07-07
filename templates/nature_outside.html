@@ -21,49 +21,23 @@
             </a>
         </div>
     </div>
-    <div class="type-of-vegetable">
+      <div class="type-of-vegetable">
         <div class="vegetable-icon">
             <div class="icon">
-                <img class="icon" src="{% static 'images/tomatoes.jpg' %}" alt="image">
+                <img class="icon" src="{% static 'images/potatoes.jpg' %}" alt="image">
             </div>
         </div>
         <div class="vegetable-info">
-            <h1 class="vegetable-name">Помидоры</h1>
+            <h1 class="vegetable-name">Картофель</h1>
             <p class="vegetable-description">Редактировать</p>
         </div>
         <div class="vegetable-wet">
+          <a href="{% url 'sensors' %}">
             <h1 class="info-icon">i</h1>
+          </a>
         </div>
     </div>
-      <div class="type-of-vegetable">
-          <div class="vegetable-icon">
-              <div class="icon">
-                <img class="icon" src="{% static 'images/cucumber.jpg' %}" alt="image">
-              </div>
-          </div>
-          <div class="vegetable-info">
-              <h1 class="vegetable-name">Огурцы</h1>
-              <p class="vegetable-description">Редактировать</p>
-          </div>
-          <div class="vegetable-wet">
-              <h1 class="info-icon">i</h1>
-          </div>
-      </div>
-      <div class="type-of-vegetable">
-          <div class="vegetable-icon">
-              <div class="icon">
-                  <img class="icon" src="{% static 'images/pepper.jpg' %}" alt="image">
-              </div>
-          </div>
-          <div class="vegetable-info">
-              <h1 class="vegetable-name">Перцы</h1>
-              <p class="vegetable-description">Редактировать</p>
-          </div>
-          <div class="vegetable-wet">
-              <h1 class="info-icon">i</h1>
-          </div>
-      </div>
-        <div class="add-vegetable">
+      <div class="add-vegetable">
             <div class="vegetable-icon">
                 <div class="icon">
                     <h1 class="add-vegetable">+</h1>

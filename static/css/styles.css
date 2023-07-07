@@ -241,28 +241,3 @@ h1.timetable{
     align-items: center;
     padding-left: 20px;
 }
-
-label.selection{
-
-    width: 100%;
-    font-size: 3em;
-}
-
-#selection{
-    min-width: 90%;
-    max-width: 90%;
-    width: 100%;
-}
-
-div.ready{
-    height: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-
-button.complete{
-    width: 350px;
-    border-radius: 30px;
-    background-color: grey;
-}
