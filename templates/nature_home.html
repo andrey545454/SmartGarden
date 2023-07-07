@@ -11,10 +11,14 @@
   <div class="main-container">
     <div class="choice-location">
         <div class="house">
-            <h1 class="location-name">Дом</h1>
+            <a href="{% url 'nature_home' %}">
+                <h1 class="location-name on-focus">Дом</h1>
+            </a>
         </div>
         <div class="street">
-            <h1 class="location-name">Улица</h1>
+            <a href="{% url 'nature_outside' %}">
+                <h1 class="location-name">Улица</h1>
+            </a>
         </div>
     </div>
     <div class="type-of-vegetable">

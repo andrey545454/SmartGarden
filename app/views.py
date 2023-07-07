@@ -5,8 +5,12 @@ def index(request):
     return render(request, 'index.html')
 
 
-def nature(request):
-    return render(request, 'nature.html')
+def nature_home(request):
+    return render(request, 'nature_home.html')
+
+
+def nature_outside(request):
+    return render(request, 'nature_outside.html')
 
 
 def add_nature(request):

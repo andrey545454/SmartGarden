@@ -122,6 +122,10 @@ div.house{
     border-radius: 20px;
 }
 
+h1.location-name.on-focus{
+    color: #808080
+}
+
 div.street{
     background-color: #313131;
     height: auto;
