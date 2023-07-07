@@ -209,4 +209,30 @@ div.icon{
     align-items: center;
 }
 
+/*============================  Item  =========================================*/
 
+div.type-of-vegetable#name-of-element{
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+}
+
+input.name{
+    font-size: 60px;
+    width: 100%;
+}
+
+h1.name-of-element{
+    font-size: 3em;
+    color: white;
+}
+
+h1.timetable{
+    color: white;
+    font-size: 3em;
+}
+
+#timetable{
+    align-items: center;
+    padding-left: 20px;
+}
